@@ -1,0 +1,12 @@
+Source: ros-kinetic-autoware-system-msgs
+Section: misc
+Priority: extra
+Maintainer: Masaya Kataoka <masaya.kataoka@tier4.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-message-generation, ros-kinetic-rosgraph-msgs, ros-kinetic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-autoware-system-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-message-runtime, ros-kinetic-rosgraph-msgs, ros-kinetic-std-msgs
+Description: The autoware_system_msgs package
