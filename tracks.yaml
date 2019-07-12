@@ -38,9 +38,11 @@ tracks:
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc}
     devel_branch: master
+    last_release: ros-1.12.0
+    last_version: 1.12.0
     name: upstream
     patches: null
-    release_inc: 0
+    release_inc: '1'
     release_repo_url: git@gitlab.com:autowarefoundation/autoware.ai-ros-releases/messages-release.git
     release_tag: ros-1.12.0
     ros_distro: melodic
