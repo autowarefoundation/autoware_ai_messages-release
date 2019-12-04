@@ -1,1 +1,1 @@
-{"trim": "", "base": "2f1b9bb", "trimbase": "", "parent": "debian/melodic/autoware_can_msgs", "previous": "dfd7ae7"}
+{"base": "62ac0d2", "parent": "debian/melodic/autoware_can_msgs", "previous": "a4ed646", "trim": "", "trimbase": ""}
