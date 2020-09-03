@@ -1,0 +1,34 @@
+ros-melodic-autoware-system-msgs (1.14.0-1stretch) stretch; urgency=high
+
+
+
+ -- Masaya Kataoka <masaya.kataoka@tier4.jp>  Thu, 03 Sep 2020 05:00:00 -0000
+
+ros-melodic-autoware-system-msgs (1.13.0-1stretch) stretch; urgency=high
+
+  * Update emergency category in DiagnosticStatus message
+  * Update package.xml files to Format 2.
+  * Contributors: Joshua Whitley, Yuma Nihei
+
+ -- Masaya Kataoka <masaya.kataoka@tier4.jp>  Tue, 03 Dec 2019 06:00:00 -0000
+
+ros-melodic-autoware-system-msgs (1.12.0-1stretch) stretch; urgency=high
+
+
+
+ -- Masaya Kataoka <masaya.kataoka@tier4.jp>  Fri, 12 Jul 2019 05:00:00 -0000
+
+ros-melodic-autoware-system-msgs (1.11.0-1stretch) stretch; urgency=high
+
+  * Revert "Fix/health checker (#2012 <https://github.com/CPFL/Autoware/issues/2012>)" (#2037 <https://github.com/CPFL/Autoware/issues/2037>)
+    This reverts commit e4187a7138eb90ad6f119eb35f824b16465aefda.
+    Reverts #2012 <https://github.com/CPFL/Autoware/issues/2012>
+    Merged without adequate description of the bug or fixes made
+  * Fix/health checker (#2012 <https://github.com/CPFL/Autoware/issues/2012>)
+  * Feature/autoware health analyzer (#2004 <https://github.com/CPFL/Autoware/issues/2004>)
+  * Feature/autoware health checker (#1943 <https://github.com/CPFL/Autoware/issues/1943>)
+  * Contributors: Geoffrey Biggs, Masaya Kataoka
+
+ -- Masaya Kataoka <masaya.kataoka@tier4.jp>  Thu, 21 Mar 2019 05:00:00 -0000
+
+
