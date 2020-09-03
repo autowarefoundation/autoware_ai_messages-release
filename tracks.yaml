@@ -43,9 +43,9 @@ tracks:
     name: upstream
     patches: null
     release_inc: '1'
-    release_repo_url: git@gitlab.com:autowarefoundation/autoware.ai-ros-releases/messages-release.git
+    release_repo_url: git@github.com:Autoware-AI/messages-release.git
     release_tag: ros-:{version}
     ros_distro: melodic
     vcs_type: git
-    vcs_uri: https://gitlab.com/autowarefoundation/autoware.ai/messages.git
+    vcs_uri: https://github.com/Autoware-AI/messages.git
     version: :{auto}
