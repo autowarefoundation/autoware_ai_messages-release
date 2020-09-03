@@ -1,0 +1,15 @@
+ros-melodic-autoware-lanelet2-msgs (1.14.0-1bionic) bionic; urgency=high
+
+
+
+ -- mitsudome-r <ryohsuke.mitsudome@tier4.jp>  Thu, 03 Sep 2020 05:00:00 -0000
+
+ros-melodic-autoware-lanelet2-msgs (1.13.0-1bionic) bionic; urgency=high
+
+  * Update package.xml of autoware_lanelet2_msgs for release.
+  * Rename lanelet2_msgs to autoware_lanelet2_msgs
+  * Contributors: Joshua Whitley, Kenji Miyake
+
+ -- mitsudome-r <ryohsuke.mitsudome@tier4.jp>  Tue, 03 Dec 2019 06:00:00 -0000
+
+
