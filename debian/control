@@ -1,0 +1,12 @@
+Source: ros-noetic-autoware-external-msgs
+Section: misc
+Priority: optional
+Maintainer: Abraham Monrroy <abrahammonrroy@yahoo.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-lgsvl-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-autoware-external-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-lgsvl-msgs
+Description: Package to contain an install external message dependencies
