@@ -1,0 +1,12 @@
+Source: ros-noetic-autoware-can-msgs
+Section: misc
+Priority: optional
+Maintainer: Yusuke Fujii <yusuke.fujii@tier4.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-message-generation, ros-noetic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-autoware-can-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-message-runtime, ros-noetic-std-msgs
+Description: The autoware_can_msgs package
