@@ -1,0 +1,13 @@
+Source: ros-noetic-autoware-lanelet2-msgs
+Section: misc
+Priority: optional
+Maintainer: mitsudome-r <ryohsuke.mitsudome@tier4.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-message-generation, ros-noetic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-autoware-lanelet2-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-message-runtime, ros-noetic-std-msgs
+Description: The autoware_lanelet2_msgs package.
+ Contains messages for lanelet2 maps
